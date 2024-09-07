@@ -18,7 +18,7 @@ function App() {
           <Trending/>
         </section>
         <section className="sm:px-16 px-8 sm:py-24 py-12" id="topsellers">
-        <h1 className="text-4xl text-slate-100 mb-6">Top Sellers</h1>
+        <h1 className="text-4xl text-slate-100 mb-6 ml-10">Top Sellers</h1>
           <TopSellers/>
         </section>
          <section className="sm:px-16 px-8 sm:py-15 py-5 grid place-content-center w-full" id="wallet">
