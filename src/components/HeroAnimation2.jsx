@@ -23,7 +23,7 @@ const HeroAnimation2 = ({children}) => {
         }
     },[])
   return (
-    <div ref={sectionRef} className={`transform transition-all duration-1000 ${isVisible? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-1/2'}`}> 
+    <div ref={sectionRef} className={`transform transition-all duration-500 ${isVisible? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-1/2'}`}> 
         {children}
     </div>
   )

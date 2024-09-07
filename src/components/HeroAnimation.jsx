@@ -31,7 +31,7 @@ return ()=> {
 },[])
   return (
   
-    <div ref={sectionRef} className={`transform transition-all duration-1000 ease-in-out ${
+    <div ref={sectionRef} className={`transform transition-all duration-500 ease-in-out ${
         isVisible ? "translate-x-0 opacity-100" : "-translate-x-1/2 opacity-0"
       }`}>
         {children}
