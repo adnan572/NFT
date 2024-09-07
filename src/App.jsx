@@ -17,7 +17,7 @@ function App() {
         <section className="" id="trending">
           <Trending/>
         </section>
-        <section className="sm:px-16 px-8 sm:py-24 py-12" id="topsellers">
+        <section className="sm:px-0 px-5 sm:py-15 py-10 w-full" id="topsellers">
         <h1 className="text-4xl text-slate-100 mb-6 ml-10">Top Sellers</h1>
           <TopSellers/>
         </section>
