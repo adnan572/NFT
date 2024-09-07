@@ -12,7 +12,7 @@ const TopSellers = () => {
   {seller.map((item)=> (
     <TrendingCardAnimation>
         <div className="  bg-red-400/20 px-5 py-3 rounded-md  bg-black/5 backdrop-blur-sm max-sm:w-full max-md:px-3">
-             <div className="flex-1 w-full flex gap-3">
+             <div className=" flex gap-3">
                 {item.imgURL.map((pics)=> (
                         <img src={pics} alt="" className="w-[100px] h-[100px] object-contain object-center  rounded-lg max-md:h-auto max-md:max-h-[400px] max-md:w-1/3 " />
                     ))}
