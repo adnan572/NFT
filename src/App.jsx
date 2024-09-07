@@ -8,7 +8,7 @@ import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <main style={{ backgroundImage: `url(${backgroundImage})` }} className="bg-cover bg-center relative min-h-screen max-md:bg-cover">
+    <main style={{ backgroundImage: `url(${backgroundImage})` }} className=" immediate-background  bg-cover bg-center relative min-h-screen max-md:bg-cover">
       <Nav/>
       <div className="overflow-x-hidden">
         <section className="flex mx-auto justify-center w-full" id="myhome">

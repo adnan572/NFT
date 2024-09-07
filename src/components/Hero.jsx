@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="mt-[60px] mr-8">
           <span className="text-[#a774b9] text-4xl font-montserrat font-semibold  max-md:leading-4 max-md:text-left">Discover </span> <span className="text-4xl text-[#954781] font-montserrat font-semibold  max-md:text-left"> & </span> <span className="text-4xl text-[#af2965] font-montserrat font-semibold  max-md:text-left"> Collect</span> <p className="text-4xl max-w-lg font-montserrat font-semibold text-slate-300 max-md:text-3xl max-md:text-left">The Best Digital NFTs Art</p>
           <p className="mt-3 max-w-lg font-palanquin text-slate-100 text-lg leading-7 font-semibold max-md:text-left max-md:leading-8">We are a huge marketplace dedicated to connecting great artists of all NFT with their fans and unique token collectors!</p>
-          <button className="rounded-md bg-[#a774b9] text-slate-200 px-4 py-2 text-md mt-6">Explore Now</button>
+          <button className="rounded-md bg-[#a774b9] text-slate-200 px-4 py-2 text-md mt-6"><a href="#trending">Explore Now</a></button>
         </div>
       </HeroAnimation>
       <HeroAnimation2>
