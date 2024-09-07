@@ -3,7 +3,7 @@ import handDrawnApe1 from './hand-drawn-nft-style-ape-illustration_23-2149611030
 import handDrawnApe2 from './hand-drawn-nft-style-ape-illustration_23-2149619505.jpg'
 import handDrawnApe3 from './hand-drawn-nft-style-ape-illustration_23-2149622034.jpg'
 import handDrawnApe4 from './hand-drawn-nft-style-ape-illustration_23-2149629591.jpg'
-import backgroundImage from './octavian-rosca-UfCYo7zHyY8-unsplash.jpg'
+import backgroundImage from './red.jpg'
 import image1 from './images.png'
 import image2 from './images2.jpg'
 import image3 from './Untitled.jpg'

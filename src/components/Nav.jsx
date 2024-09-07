@@ -28,10 +28,10 @@ const Nav = () => {
             window.removeEventListener('scroll', handleScroll);
           };
         }, []);
-    
+        
   return (
 
-    <section className={`px-8 py-5 w-full max-md:py-2 max-md:bg-[#3b3231] max-md:px-5 sticky top-0 z-50 ${scrolled ? ' bg-[#3b3231]' :  'md:bg-[#3b3231]/80'  } relative `}>
+    <section className={`px-8 py-5 w-full max-md:py-2 max-md:bg-[#3b3231] max-md:px-5 sticky top-0 z-50 ${scrolled ? ' bg-[#3b3231]' :  'md:bg-[#3b3231]/50'  } relative `}>
         <div className={`md:flex md:justify-between md:items-center max-w-[1440px] mx-auto`}>
             <div>
                 <p className="text-4xl text-white font-mono max-md:text-3xl">Badr
